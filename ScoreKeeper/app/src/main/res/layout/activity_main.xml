@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aungmyokyaw.www.scorekeeperapplication.MainActivity">
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorPrimary"
+        android:onClick="reset"
+        android:text="reset"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toStartOf="@id/parent"/>
+
+    <View
+        android:id="@+id/guide"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/reset"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@+id/parent">
+    </View>
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Player 1"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@+id/parent"/>
+
+    <TextView
+        android:id="@+id/p1Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="43sp"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1"/>
+
+    <Button
+        android:id="@+id/p1Vict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="victoryP1"
+        android:text="Victory"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Score"/>
+
+    <Button
+        android:id="@+id/p1Loss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="lossP1"
+        android:text="Loss"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Vict"/>
+
+    <Button
+        android:id="@+id/p1Draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="draw"
+        android:text="Draw"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Loss"
+        tools:layout_editor_absoluteX="52dp" />
+
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Player 2"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toEndOf="@id/guide"
+        app:layout_constraintTop_toTopOf="@+id/parent"/>
+
+    <TextView
+        android:id="@+id/p2Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="43sp"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toEndOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@+id/p2"/>
+
+    <Button
+        android:id="@+id/p2Vict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="victoryP2"
+        android:text="Victory"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toEndOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@+id/p2Score"
+        tools:layout_editor_absoluteX="244dp" />
+
+    <Button
+        android:id="@+id/p2Loss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="lossP2"
+        android:text="Loss"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toEndOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@+id/p2Vict"/>
+
+    <Button
+        android:id="@+id/p2Draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="draw"
+        android:text="Draw"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toEndOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@+id/p2Loss"/>
+
+</android.support.constraint.ConstraintLayout>
