@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aungmyokyaw.www.quizapp.MainActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_Percent="50"/>
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/submit"
+        android:onClick="submit"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="@id/parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@id/parent"/>
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/submit"
+        android:onClick="reset"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="@id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@id/guideline"/>
+
+    <ScrollView
+        style="@style/questions"
+        app:layout_constraintBottom_toTopOf="@id/submit"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@id/parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            style="@style/questions"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/qHeader"
+                android:text="@string/q1" />
+
+            <TextView
+                style="@style/qBody"
+                android:text="@string/body1" />
+
+            <RadioGroup
+                android:id="@+id/qR1"
+                style="@style/qRadio">
+
+                <RadioButton
+                    android:id="@+id/correct1"
+                    style="@style/qRadio"
+                    android:text="@string/ans11" />
+
+                <RadioButton
+                    android:id="@+id/incorrect1"
+                    style="@style/qRadio"
+                    android:text="@string/ans12" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/qHeader"
+                android:text="@string/q2" />
+
+            <TextView
+                style="@style/qBody"
+                android:text="@string/body2" />
+
+            <CheckBox
+                android:id="@+id/qC1"
+                style="@style/qCheck"
+                android:onClick="calcCheck"
+                android:text="@string/ans21" />
+
+            <CheckBox
+                android:id="@+id/qC2"
+                style="@style/qCheck"
+                android:onClick="calcCheck"
+                android:text="@string/ans22" />
+
+            <TextView
+                style="@style/qHeader"
+                android:text="@string/q3" />
+
+            <TextView
+                style="@style/qBody"
+                android:text="@string/body3" />
+
+            <EditText
+                android:id="@+id/q3"
+                style="@style/qEdit"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/qHeader"
+                android:text="@string/q4" />
+
+            <TextView
+                style="@style/qBody"
+                android:text="@string/body4" />
+
+            <RadioGroup
+                android:id="@+id/qR2"
+                style="@style/qRadio">
+
+                <RadioButton
+                    style="@style/qRadio"
+                    android:text="@string/ans41" />
+
+                <RadioButton
+                    style="@style/qRadio"
+                    android:text="@string/ans42" />
+
+                <RadioButton
+                    style="@style/qRadio"
+                    android:text="@string/ans43" />
+
+                <RadioButton
+                    style="@style/qRadio"
+                    android:text="@string/ans44" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

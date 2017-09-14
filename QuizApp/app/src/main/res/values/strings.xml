@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+
+    <string name="q1">Question 1</string>
+    <string name="body1">
+        Is JavaScript a case-sensitive language?
+    </string>
+    <string name="ans11">true</string>
+    <string name="ans12">false</string>
+
+    <string name="q2">Question 2</string>
+    <string name="body2">
+        Which of the following is a valid type of function javascript supports?
+    </string>
+    <string name="ans21">named function</string>
+    <string name="ans22">anonymous function</string>
+
+    <string name="q3">Question 3</string>
+    <string name="body3">
+        Which built-in method adds one or more elements to the end of an array and returns the new length of the array?
+    </string>
+
+    <string name="q4">Question 4</string>
+    <string name="body4">
+        Which of the following function of Number object returns a string value version of the current number?
+    </string>
+    <string name="ans41">toString()</string>
+    <string name="ans42">toFixed()</string>
+    <string name="ans43">toLocaleString()</string>
+    <string name="ans44">toPrecision()</string>
+
+</resources>
