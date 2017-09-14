@@ -1,7 +1,7 @@
 # Android Basics Nanodegree by Google
 > Android Basics Nanodegree by Google
 
-- [ ] [Single Screen App](#single-screen-app)
+- [x] [Single Screen App](#single-screen-app)
 - [ ] [Score Keeper App](#score-keeper-app)
 - [ ] [Quiz App](#quiz-app)
 - [ ] [Musical Structure App](#musical-structure-app)
@@ -13,6 +13,7 @@
 - [ ] [Inventory App](#inventory-app)
 
 ## Single Screen App
+![Single Screen App][single-screen-app]
 
 ## Score Keeper App
 
@@ -34,3 +35,5 @@
 
 ## License
 [MIT](./LICENSE)
+
+[single-screen-app]: ./AboutMe/media/about_me.png
