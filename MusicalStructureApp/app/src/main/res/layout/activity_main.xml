@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aungmyokyaw.www.musicalstructureapp.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        style="@style/tabLayout"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/background_light"
+        app:tabBackground="@color/colorPrimary"
+        app:tabGravity="fill"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintBottom_toBottomOf="@+id/parent">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        style="@style/viewPager"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@+id/parent"
+        app:layout_constraintBottom_toTopOf="@id/tabLayout">
+    </android.support.v4.view.ViewPager>
+
+</android.support.constraint.ConstraintLayout>

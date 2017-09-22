@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    tools:context="com.aungmyokyaw.www.musicalstructureapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/art"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        tools:src="@drawable/album_art"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@id/parent"
+        android:contentDescription="@string/art"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/song"
+        tools:text="@string/name"
+        app:layout_constraintStart_toEndOf="@id/art"
+        app:layout_constraintTop_toTopOf="@id/parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintBottom_toBottomOf="@id/parent"/>
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/song"
+        tools:text="@string/artist"
+        app:layout_constraintStart_toEndOf="@id/art"
+        app:layout_constraintTop_toBottomOf="@id/name"/>
+
+</android.support.constraint.ConstraintLayout>

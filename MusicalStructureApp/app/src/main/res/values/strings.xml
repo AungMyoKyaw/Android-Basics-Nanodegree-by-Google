@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="genre">Genre</string>
+    <string name="art">Art</string>
+    <string name="name">Name</string>
+    <string name="artist">Artist</string>
+</resources>
