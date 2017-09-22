@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@id/parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/subject_img"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@id/parent" />
+
+    <TextView
+        android:id="@+id/subject"
+        style="@style/subject_name"
+        tools:text="Burmese"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="@id/parent"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintBottom_toBottomOf="@id/parent"/>
+
+    <TextView
+        android:id="@+id/mark"
+        style="@style/subject_name"
+        tools:text="100"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/subject"/>
+
+</android.support.constraint.ConstraintLayout>

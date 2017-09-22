@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aungmyokyaw.www.reportcard.MainActivity">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        style="@style/profile"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintTop_toTopOf="@+id/parent"
+        tools:src="@drawable/proc_pic">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/name"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@id/profilePic"
+        tools:text="Student"/>
+
+    <ListView
+        android:id="@+id/subject"
+        style="@style/subject"
+        app:layout_constraintStart_toStartOf="@id/parent"
+        app:layout_constraintEnd_toEndOf="@id/parent"
+        app:layout_constraintTop_toBottomOf="@id/name">
+
+    </ListView>
+</android.support.constraint.ConstraintLayout>

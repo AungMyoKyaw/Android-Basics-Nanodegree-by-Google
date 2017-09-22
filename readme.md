@@ -5,7 +5,7 @@
 - [x] [Score Keeper App](#score-keeper-app)
 - [x] [Quiz App](#quiz-app)
 - [x] [Musical Structure App](#musical-structure-app)
-- [ ] [Report Card](#report-card)
+- [x] [Report Card](#report-card)
 - [ ] [Tour Guide App](#tour-guide-app)
 - [ ] [Book Listing App](#book-listing-app)
 - [ ] [News App](#news-app)
@@ -25,6 +25,7 @@
 ![Musical Structure App][musical-structure-app]
 
 ## Report Card
+![Report Card][report-card]
 
 ## Tour Guide App
 
@@ -43,3 +44,4 @@
 [score-keeper-app]: ./ScoreKeeper/media/scoreKeeper.png
 [quiz-app]: ./QuizApp/media/QuizApp.png
 [musical-structure-app]: ./MusicalStructureApp/media/MusicalStructureApp.png
+[report-card]: ./ReportCard/media/report-card.png
