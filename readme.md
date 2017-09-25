@@ -6,7 +6,7 @@
 - [x] [Quiz App](#quiz-app)
 - [x] [Musical Structure App](#musical-structure-app)
 - [x] [Report Card](#report-card)
-- [ ] [Tour Guide App](#tour-guide-app)
+- [x] [Tour Guide App](#tour-guide-app)
 - [ ] [Book Listing App](#book-listing-app)
 - [ ] [News App](#news-app)
 - [ ] [Habit Tracker App](#habit-tracker-app)
@@ -28,6 +28,7 @@
 ![Report Card][report-card]
 
 ## Tour Guide App
+![Tour Guide App][tour-guide-app]
 
 ## Book Listing App
 
@@ -45,3 +46,4 @@
 [quiz-app]: ./QuizApp/media/QuizApp.png
 [musical-structure-app]: ./MusicalStructureApp/media/MusicalStructureApp.png
 [report-card]: ./ReportCard/media/report-card.png
+[tour-guide-app]: ./TourGuideApp/media/tour-guide-app.png
