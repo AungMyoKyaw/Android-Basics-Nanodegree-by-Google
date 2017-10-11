@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_book_listing_app_settings">Settings</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur, rem. At atque blanditiis excepturi explicabo facere impedit, inventore ipsa ipsum labore officiis provident quasi ratione, similique unde veritatis voluptates?</string>
+    <string name="api_key">AIzaSyDrf2PBJWuiaDrtagFPJEHva4QdUXngeng</string>
+</resources>
