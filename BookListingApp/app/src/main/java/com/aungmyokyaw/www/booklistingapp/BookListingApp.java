@@ -5,10 +5,13 @@ import android.content.Intent;
 import android.app.LoaderManager;
 import android.content.Loader;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -21,6 +24,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -111,8 +115,20 @@ public class BookListingApp extends AppCompatActivity
         loading.setVisibility(View.VISIBLE);
 
         //loader setup
-        LoaderManager loaderManager = getLoaderManager();
-        loaderManager.restartLoader(1,null,this);
+
+        //get network INfo
+        ConnectivityManager connectivityManager =
+                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+        if(networkInfo != null && networkInfo.isConnected()){
+            LoaderManager loaderManager = getLoaderManager();
+            loaderManager.restartLoader(1,null,this);
+        } else {
+            loading.setVisibility(View.GONE);
+            Toast.makeText(getApplicationContext(),"No Internet Connection!",Toast.LENGTH_LONG)
+                    .show();
+        }
     }
 
     @Override
