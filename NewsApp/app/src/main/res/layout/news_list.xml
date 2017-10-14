@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/section_circle"
+        android:gravity="center"
+        android:padding="10dp"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/white"
+        tools:text="Technology Hello"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/web_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            tools:text="Hello World"/>
+        <TextView
+            android:id="@+id/web_pub_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="2017-10-14T07:00:01Z"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -8,7 +8,7 @@
 - [x] [Report Card](#report-card)
 - [x] [Tour Guide App](#tour-guide-app)
 - [x] [Book Listing App](#book-listing-app)
-- [ ] [News App](#news-app)
+- [x] [News App](#news-app)
 - [ ] [Habit Tracker App](#habit-tracker-app)
 - [ ] [Inventory App](#inventory-app)
 
@@ -34,6 +34,7 @@
 ![Book Lising App][book_listing_app]
 
 ## News App
+![News App][news_app]
 
 ## Habit Tracker App
 
@@ -49,3 +50,4 @@
 [report-card]: ./ReportCard/media/report-card.png
 [tour-guide-app]: ./TourGuideApp/media/tour-guide-app.png
 [book_listing_app]: ./BookListingApp/media/book_listing_app.png
+[news_app]: ./NewsApp/media/NewsApp.png
