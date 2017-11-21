@@ -9,7 +9,7 @@
 - [x] [Tour Guide App](#tour-guide-app)
 - [x] [Book Listing App](#book-listing-app)
 - [x] [News App](#news-app)
-- [ ] [Habit Tracker App](#habit-tracker-app)
+- [x] [Habit Tracker App](#habit-tracker-app)
 - [ ] [Inventory App](#inventory-app)
 
 ## Single Screen App
@@ -37,6 +37,7 @@
 ![News App][news_app]
 
 ## Habit Tracker App
+![Habit Tracker App][habit_tracker_app]
 
 ## Inventory App
 
@@ -51,3 +52,4 @@
 [tour-guide-app]: ./TourGuideApp/media/tour-guide-app.png
 [book_listing_app]: ./BookListingApp/media/book_listing_app.png
 [news_app]: ./NewsApp/media/NewsApp.png
+[habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp.png
