@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Habit Tracker App</string>
+    <string name="not_found">NOT Found</string>
+    <string name="edit_label">Edit Habit</string>
+    <string name="new_habit_label">New Habit</string>
+    <string name="save">Save</string>
+    <string name="del_dialog_message">Are you sure to delete ?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel_del">Cancel Delete</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="no_times">Number of times</string>
+    <string name="save_error">Error with saving habit</string>
+    <string name="saved">Habit saved</string>
+    <string name="fill_something">Fill all fields</string>
+    <string name="update_error">Error with updating habit</string>
+    <string name="updated">Habit updated</string>
+    <string name="unsaved_change">Discard your changes and quit editing</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+</resources>
