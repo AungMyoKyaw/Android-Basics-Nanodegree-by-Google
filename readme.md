@@ -1,6 +1,8 @@
 # Android Basics Nanodegree by Google
 > Android Basics Nanodegree by Google
 
+<img src="./AndroidBasicsNanodegreeByGoogle.png" align="right">
+
 - [x] [Single Screen App](#single-screen-app)
 - [x] [Score Keeper App](#score-keeper-app)
 - [x] [Quiz App](#quiz-app)
