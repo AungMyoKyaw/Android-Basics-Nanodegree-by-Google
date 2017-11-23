@@ -59,16 +59,16 @@
 ## License
 [MIT](./LICENSE)
 
-[single-screen-app]: ./AboutMe/media/about_me.png
-[score-keeper-app]: ./ScoreKeeper/media/scoreKeeper.png
-[quiz-app]: ./QuizApp/media/QuizApp.png
-[musical-structure-app]: ./MusicalStructureApp/media/MusicalStructureApp.png
-[report-card]: ./ReportCard/media/report-card.png
-[tour-guide-app]: ./TourGuideApp/media/tour-guide-app.png
-[book_listing_app]: ./BookListingApp/media/book_listing_app.png
-[news_app]: ./NewsApp/media/NewsApp.png
-[habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp.png
-[inventory_app]: ./InventoryApp/media/InventoryApp.png
+[single-screen-app]: ./AboutMe/media/about_me_sm.png
+[score-keeper-app]: ./ScoreKeeper/media/scoreKeeper_sm.png
+[quiz-app]: ./QuizApp/media/QuizApp_sm.png
+[musical-structure-app]: ./MusicalStructureApp/media/MusicalStructureApp_sm.png
+[report-card]: ./ReportCard/media/report-card_sm.png
+[tour-guide-app]: ./TourGuideApp/media/tour-guide-app_sm.png
+[book_listing_app]: ./BookListingApp/media/book_listing_app_sm.png
+[news_app]: ./NewsApp/media/NewsApp_sm.png
+[habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp_sm.png
+[inventory_app]: ./InventoryApp/media/InventoryApp_sm.png
 
 [single-screen-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/v1/AboutMe.apk
 [score-keeper-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/v1/ScoreKeeper.apk
