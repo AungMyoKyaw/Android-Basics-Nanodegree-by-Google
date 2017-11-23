@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="not_found">Not Found</string>
+    <string name="product_image">Product Photo</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_model">Product Model</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_price_dummy">888 $</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="product_quantity_dummy">8888</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_email">Supplier Email</string>
+    <string name="supplier_phone">Supplier Phone</string>
+    <string name="save">Save</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="new_product">New Product</string>
+    <string name="delete_product">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="save_err">Error with saving product</string>
+    <string name="saved">Product saved</string>
+    <string name="required">All fields are required.</string>
+    <string name="updated">Product Updated</string>
+    <string name="update_err">Error with updating product</string>
+    <string name="del_dialog_msg">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard_dialog_msg">Are you sure ?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+</resources>

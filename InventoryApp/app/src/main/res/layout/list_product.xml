@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:weightSum="10"
+    android:descendantFocusability="blocksDescendants">
+    <ImageView
+        android:id="@+id/image_display"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/product_image"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ic_add_a_photo_white_24dp"/>
+
+    <LinearLayout
+        android:id="@+id/product_display"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/product_name_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            tools:text="@string/product_name"/>
+        <TextView
+            android:id="@+id/product_price_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            tools:text="@string/product_price_dummy"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/product_quantity_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            tools:text="@string/product_quantity_dummy"/>
+        <ImageButton
+            android:id="@+id/product_checkout_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:contentDescription="@string/product_quantity"
+            android:src="@drawable/ic_add_shopping_cart_white_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

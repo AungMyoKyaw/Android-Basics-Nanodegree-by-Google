@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditItem">
+    <item
+        android:title="@string/delete_product"
+        android:id="@+id/delete_product"
+        app:showAsAction="never">
+    </item>
+</menu>
