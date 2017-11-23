@@ -14,6 +14,18 @@
 - [x] [Habit Tracker App](#habit-tracker-app)
 - [x] [Inventory App](#inventory-app)
 
+## Get Apps
+- [Single Screen App][single-screen-app_dl]
+- [Score Keeper App][score-keeper-app_dl]
+- [Quiz App][quiz-app_dl]
+- [Musical Structure App][musical-structure-app_dl]
+- [Report Card][report-card_dl]
+- [Tour Guide App][tour-guide-app_dl]
+- [Book Listing App][book_listing_app_dl]
+- [News App][news_app_dl]
+- [Habit Tracker App][habit_tracker_app_dl]
+- [Inventory App][inventory_app_dl]
+
 ## Single Screen App
 ![Single Screen App][single-screen-app]
 
@@ -57,3 +69,14 @@
 [news_app]: ./NewsApp/media/NewsApp.png
 [habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp.png
 [inventory_app]: ./InventoryApp/media/InventoryApp.png
+
+[single-screen-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/AboutMe.apk
+[score-keeper-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/ScoreKeeper.apk
+[quiz-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/QuizApp.apk
+[musical-structure-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/MusicalStructureApp.apk
+[report-card_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/ReportCard.apk
+[tour-guide-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/TourGuideApp.apk
+[book_listing_app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/BookListingApp.apk
+[news_app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/NewsApp.apk
+[habit_tracker_app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/HabitTrackerApp.apk
+[inventory_app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/untagged-b9d01b9d899fcee6e122/InventoryApp.apk
