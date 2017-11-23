@@ -10,7 +10,7 @@
 - [x] [Book Listing App](#book-listing-app)
 - [x] [News App](#news-app)
 - [x] [Habit Tracker App](#habit-tracker-app)
-- [ ] [Inventory App](#inventory-app)
+- [x] [Inventory App](#inventory-app)
 
 ## Single Screen App
 ![Single Screen App][single-screen-app]
@@ -40,6 +40,7 @@
 ![Habit Tracker App][habit_tracker_app]
 
 ## Inventory App
+![Inventory App][inventory_app]
 
 ## License
 [MIT](./LICENSE)
@@ -53,3 +54,4 @@
 [book_listing_app]: ./BookListingApp/media/book_listing_app.png
 [news_app]: ./NewsApp/media/NewsApp.png
 [habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp.png
+[inventory_app]: ./InventoryApp/media/InventoryApp.png
