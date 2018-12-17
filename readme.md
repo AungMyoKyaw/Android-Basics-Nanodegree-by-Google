@@ -1,4 +1,5 @@
 # Android Basics Nanodegree by Google
+
 > Android Basics Nanodegree by Google
 
 <img src="./AndroidBasicsNanodegreeByGoogle.png" align="right">
@@ -15,6 +16,7 @@
 - [x] [Inventory App](#inventory-app)
 
 ## Get Apps
+
 - [Single Screen App][single-screen-app_dl]
 - [Score Keeper App][score-keeper-app_dl]
 - [Quiz App][quiz-app_dl]
@@ -27,37 +29,48 @@
 - [Inventory App][inventory_app_dl]
 
 ## Single Screen App
+
 ![Single Screen App][single-screen-app]
 
 ## Score Keeper App
+
 ![Score Keeper App][score-keeper-app]
 
 ## Quiz App
+
 ![Quiz App][quiz-app]
 
 ## Musical Structure App
+
 ![Musical Structure App][musical-structure-app]
 
 ## Report Card
+
 ![Report Card][report-card]
 
 ## Tour Guide App
+
 ![Tour Guide App][tour-guide-app]
 
 ## Book Listing App
+
 ![Book Lising App][book_listing_app]
 
 ## News App
+
 ![News App][news_app]
 
 ## Habit Tracker App
+
 ![Habit Tracker App][habit_tracker_app]
 
 ## Inventory App
+
 ![Inventory App][inventory_app]
 
 ## License
-[MIT](./LICENSE)
+
+MIT © [Aung Myo Kyaw](https://github.com/AungMyoKyaw)
 
 [single-screen-app]: ./AboutMe/media/about_me_sm.png
 [score-keeper-app]: ./ScoreKeeper/media/scoreKeeper_sm.png
@@ -69,7 +82,6 @@
 [news_app]: ./NewsApp/media/NewsApp_sm.png
 [habit_tracker_app]: ./HabitTrackerApp/media/HabitTrackerApp_sm.png
 [inventory_app]: ./InventoryApp/media/InventoryApp_sm.png
-
 [single-screen-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/v1/AboutMe.apk
 [score-keeper-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/v1/ScoreKeeper.apk
 [quiz-app_dl]: https://github.com/AungMyoKyaw/Android-Basics-Nanodegree-by-Google/releases/download/v1/QuizApp.apk
