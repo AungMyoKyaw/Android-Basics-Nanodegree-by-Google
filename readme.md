@@ -2,6 +2,9 @@
 
 > Android Basics Nanodegree by Google
 
+[![Nanodegree][nanodegree]][nanodegree-url]
+[![License: MIT][license]][license-url]
+
 <img src="./AndroidBasicsNanodegreeByGoogle.png" align="right">
 
 - [x] [Single Screen App](#single-screen-app)
@@ -72,6 +75,10 @@
 
 MIT © [Aung Myo Kyaw](https://github.com/AungMyoKyaw)
 
+[license]: https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square
+[license-url]: https://opensource.org/licenses/MIT
+[nanodegree]: https://img.shields.io/badge/Nanodegree-Android--Basics-brightgreen.svg?style=flat-square
+[nanodegree-url]: #
 [single-screen-app]: ./AboutMe/media/about_me_sm.png
 [score-keeper-app]: ./ScoreKeeper/media/scoreKeeper_sm.png
 [quiz-app]: ./QuizApp/media/QuizApp_sm.png
